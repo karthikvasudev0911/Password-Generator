@@ -1,0 +1,118 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #10100f;
+    color: #fff;
+}
+
+.container {
+    margin: 8%;
+    width: 90%;
+    max-width: 700px;
+}
+
+.container h1 {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.container h1 span {
+    color: #0f61ad;
+    border-bottom: 4px solid #0f61ad;
+    padding-bottom: 7px;
+}
+
+.display {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 6px;
+}
+
+.display img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.display input {
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+}
+
+.container button img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.container button {
+    border: 0;
+    outline: 0;
+    background: #fff;
+    color: #0a0909;
+    font-size: 23px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 6px;
+    transition: background-color 0.6s ease-in-out, color 0.3s ease-in-out;
+}
+
+.container button:hover {
+    background-color: #0f61ad;
+    color: #0a0909;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 5%;
+    }
+
+    .container h1 {
+        font-size: 35px;
+    }
+
+    .display {
+        padding: 20px;
+    }
+
+    .container button {
+        font-size: 20px;
+        padding: 12px 20px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .container {
+        margin: 3%;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .display {
+        padding: 16px;
+    }
+
+    .container button {
+        font-size: 18px;
+        padding: 10px 16px;
+    }
+}
